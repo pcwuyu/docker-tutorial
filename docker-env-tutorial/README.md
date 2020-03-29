@@ -30,6 +30,19 @@ unset ODOO_TAG
 unset POSTGRES_TAG
 ```
 
+如果要查看是否有設定成功, 可使用以下指令
+
+```cmd
+echo $ODOO_TAG
+echo $POSTGRES_TAG
+```
+
+查看全部的 environment variables
+
+```cmd
+export -p
+```
+
 然後執行以下指令檢查是否設定正確
 
 ```cmd
